@@ -1,0 +1,146 @@
+/* Base css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    outline: 0;
+    padding: 0;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+    outline: 0 solid;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+}
+
+img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+
+
+}
+
+p,
+il {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #6c6b6b;
+}
+
+
+/* header Css */
+.header-absolute {
+    position: absolute;
+    width: 100%;
+}
+
+.navbar-brand img {
+    max-width: 200px;
+}
+
+.main-menu .nav-item.nav-link {
+    padding: 10px 15px;
+    margin-right: 15px;
+    display: inline-block;
+    color: #000;
+    font-size: 16px;
+}
+
+.boxed-btn {
+    background: #21b573;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: all linear .3s;
+}
+
+.boxed-btn:hover {
+    color: #fff;
+    background: #189a60;
+}
+
+.banner-area {
+    background-color: #F0FFF0;
+    padding: 165px 0 70px;
+}
+
+.banner-content h4 {
+    color: #FD511A;
+    font-size: 16px;
+}
+
+.banner-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+    margin-top: 15px;
+}
+
+.banner-content h1 span {
+    display: block;
+    color: #21b573;
+}
+
+.banner-content {
+    max-width: 490px;
+}
+
+.banner-content p {
+    line-height: 36px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+
+
+/* Fact Css */
+
+.single-fact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 270px;
+    border-radius: 12px;
+    transition: all linear .3s;
+}
+
+.single-fact:hover {
+    box-shadow: 2px 10px 15px #00000021;
+    cursor: pointer;
+}
+
+.fact-img {
+    min-height: 90px;
+}
+
+.fact-img img {
+    max-width: 66px;
+}
