@@ -204,6 +204,7 @@ h5.card-title {
     justify-content: space-between;
     margin-top: 11px;
     margin-right: -15px;
+    background: transparent;
 }
 
 
@@ -539,5 +540,9 @@ footer a {
         font-size: 15px;
         padding: 8px 25px;
         border-radius: 50px;
+    }
+
+    .post-content {
+        height: 240px;
     }
 }
