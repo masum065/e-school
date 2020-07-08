@@ -306,7 +306,7 @@ h5.card-title {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: self-end;
+    align-items: self-start;
     height: 300px;
     padding-left: 65px;
 }
