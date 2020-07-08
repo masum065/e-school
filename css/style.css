@@ -536,6 +536,10 @@ footer a {
         margin-bottom: 65px;
     }
 
+    .single-fact h3 {
+        font-size: 22px;
+    }
+
     .boxed-btn {
         font-size: 15px;
         padding: 8px 25px;
