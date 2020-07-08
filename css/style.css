@@ -413,13 +413,131 @@ footer a {
 @media (min-width: 1200px) {}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .single-post.left .post-img {
+        max-width: 435px;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991px) {}
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .main-menu {
+        background: #fff;
+        padding: 25px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px #21b5735c;
+        width: 40%;
+    }
+
+    .banner-content h1 {
+        font-size: 36px;
+        line-height: 55px;
+        margin-top: 0px;
+    }
+
+    .banner-content p {
+        line-height: 28px;
+    }
+
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+
+    .team-bg {
+        height: 333px;
+    }
+
+    .single-post.right .post-img,
+    .single-post.left .post-img {
+        max-width: 360px;
+    }
+
+    .post-content {
+        height: 240px;
+        padding-left: 34px;
+    }
+
+
+    .single-post.right .post-content {
+        height: 240px;
+        padding-left: 0;
+        padding-right: 34px;
+    }
+
+    .post-meta {
+        top: 30px;
+        right: 30px;
+        height: 85px;
+        width: 85px;
+    }
+}
 
 /*small devices (portrait phones, less than 576px) */
-@media(min-width: 576px) and (max-width: 767px) {}
+@media(min-width: 320px) and (max-width: 767px) {
+    .main-menu {
+        background: #fff;
+        padding: 25px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 2px 2px 10px #21b5735c;
+        width: 50%;
+    }
+
+    .banner-content h1 {
+        font-size: 46px;
+        line-height: 60px;
+    }
+
+    .banner-img {
+        margin-top: 30px;
+
+    }
+
+    .section-heading {
+        font-size: 30px;
+        padding: 10px 0 30px;
+    }
+
+    .mb-30 {
+        margin-bottom: 30px;
+    }
+
+    .single-post.right .post-content {
+        align-items: flex-start;
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    .post-content {
+        height: 200px;
+        padding-left: 30px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footer-menu-title {
+        font-size: 25px;
+        margin-bottom: 7px;
+    }
+
+    .copyright-area {
+        margin-top: 30px;
+    }
+}
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media(min-width: 320px) and (max-width: 575px) {}
+@media(min-width: 320px) and (max-width: 575px) {
+    .mb-100 {
+        margin-bottom: 65px;
+    }
+
+    .boxed-btn {
+        font-size: 15px;
+        padding: 8px 25px;
+        border-radius: 50px;
+    }
+}
