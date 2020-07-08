@@ -45,17 +45,26 @@ il {
     font-family: 'Poppins', sans-serif;
 }
 
+::selection {
+    color: #fff;
+    background: #21b5729d;
+    /* background: #21b573; */
+}
 
 body {
     font-family: 'Poppins', sans-serif;
     color: #6c6b6b;
 }
 
+.mb-100 {
+    margin-bottom: 100px;
+}
 
 /* header Css */
 .header-absolute {
     position: absolute;
     width: 100%;
+    z-index: 99;
 }
 
 .navbar-brand img {
@@ -89,6 +98,7 @@ body {
 .banner-area {
     background-color: #F0FFF0;
     padding: 165px 0 70px;
+    margin-bottom: 35px;
 }
 
 .banner-content h4 {
@@ -118,6 +128,13 @@ body {
     margin-top: 15px;
 }
 
+.banner-img {
+    transition: all linear .3s;
+}
+
+.banner-img:hover {
+    transform: rotate3d(-10, 6, 5, 5deg);
+}
 
 
 /* Fact Css */
@@ -200,11 +217,22 @@ h5.card-title {
 
 
 /* Team Member */
+.single-team:hover {
+    transition: all linear .2s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.single-team {
+    transition: all linear .2s;
+}
+
 .team-bg {
     background-size: cover;
     background-position: center top;
     height: 255px;
     background-color: #413960;
+    border-radius: 12px;
 }
 
 .team-member-1 {
@@ -265,7 +293,9 @@ h5.card-title {
     float: right;
 }
 
-
+.post-img img {
+    border-radius: 12px;
+}
 
 .single-post .post-img {
     position: relative;
@@ -296,6 +326,7 @@ h5.card-title {
     background-color: #fff;
     text-align: center;
     transition: all linear .2s;
+    border-radius: 5px;
 }
 
 .single-post.right .post-meta {
@@ -326,6 +357,15 @@ h5.card-title {
     color: #fff;
 }
 
+.post-content h3 {
+    color: #413960;
+    font-size: 24px;
+}
+
+.post-content p {
+    padding: 8px 0px;
+}
+
 /* Footer Area */
 
 footer {
@@ -350,7 +390,36 @@ footer a {
     display: inline-block;
 }
 
+.footer-menu li:hover a {
+    color: #21b573;
+}
+
 .copyright-area {
     margin-top: 70px;
     text-align: center;
+    color: #cdcdcd;
 }
+
+
+
+
+
+
+
+/* ============  Responsive Css =============== */
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/*small devices (portrait phones, less than 576px) */
+@media(min-width: 576px) and (max-width: 767px) {}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media(min-width: 320px) and (max-width: 575px) {}
